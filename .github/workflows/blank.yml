@@ -42,10 +42,14 @@ jobs:
           python-version: 3.7
           auto-activate-base: true
       
-      - name: Check conda
+      - name: Check conda and python
         run: |
           which conda
           conda list
           which python
+          python --version
           which pip
+          pip --version
+          
+          
           
