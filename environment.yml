@@ -1,0 +1,6 @@
+name: wlalign-env
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - scipy
